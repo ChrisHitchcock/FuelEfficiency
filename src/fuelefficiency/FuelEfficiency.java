@@ -1,7 +1,11 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Name:        Chris Hitchcock
+ * Date:        November 1, 2016
+ * Filename:    FuelEfficiency.java
+ * Version:     1.1
+ * Description: This program creates vehicles using the respective classes, and
+ *              displays the distance they can drive with an inputted amount
+ *              of fuel. It was made to test Polymorphism.
  */
 
 package fuelefficiency;

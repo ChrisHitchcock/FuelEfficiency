@@ -1,7 +1,11 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Name:        Chris Hitchcock
+ * Date:        November 1, 2016
+ * Filename:    HybridCar.java
+ * Version:     1.1
+ * Description: This program creates a HybridCar object; inheriting from the 
+ *              Vehicle class it has a getDistance method with a calculation 
+ *              specific to HybridCars.
  */
 
 package fuelefficiency;
