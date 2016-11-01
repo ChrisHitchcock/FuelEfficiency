@@ -12,15 +12,8 @@ package fuelefficiency;
  * @author chhit5249
  */
 public class Motorcycle extends Vehicle {
+    //Variable declaration
     private double dist;
-    
-    /**
-     * This creates the Motorcycle.
-     */
-    public Motorcycle()
-    {
-        super();
-    }
     
     /**
      * Finds the distance the Motorcycle can travel with the given # of litres.
@@ -29,7 +22,10 @@ public class Motorcycle extends Vehicle {
      */    
     public double getDistance(double l)
     {
+        //Calculate, round and return
         dist = l/0.063;
+        dist = dist*100;
+        dist = Math.round(dist);   
         return dist;
     }
 }

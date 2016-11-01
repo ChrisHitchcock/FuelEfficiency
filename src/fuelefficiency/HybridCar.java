@@ -12,15 +12,8 @@ package fuelefficiency;
  * @author chhit5249
  */
 public class HybridCar extends Vehicle {
+    //Variable declaration
     private double dist;
-    
-    /**
-     * This creates the HybridCar.
-     */
-    public HybridCar()
-    {
-        super();
-    }
     
     /**
      * Finds the distance the HybridCar can travel with the given # of litres.
@@ -29,7 +22,10 @@ public class HybridCar extends Vehicle {
      */    
     public double getDistance(double l)
     {
+        //Calculate, round and return
         dist = l/0.038;
+        dist = dist*100;
+        dist = Math.round(dist);   
         return dist;
     }
 }

@@ -12,17 +12,6 @@ package fuelefficiency;
  * @author chhit5249
  */
 public abstract class Vehicle {
-    private String type;
-    private double distance;
-    
-    /**
-     * This constructor constructs a basic vehicle.
-     */
-    public Vehicle()
-    {
-        
-    }
-    
     /**
      * This method finds out the distance each type of vehicle can drive in 
      * the inputted amount of litres.

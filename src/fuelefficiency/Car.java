@@ -12,16 +12,9 @@ package fuelefficiency;
  * @author chhit5249
  */
 public class Car extends Vehicle {
+    //Variable declaration
     private double dist;
-    
-    /**
-     * Creates the Car.
-     */
-    public Car()
-    {
-        super();
-    }
-    
+
     /**
      * Finds the distance the Car can travel with the given # of litres.
      * @param l Number of litres.
@@ -29,7 +22,10 @@ public class Car extends Vehicle {
      */
     public double getDistance(double l)
     {
+        //Calculate, round and return
         dist = l/0.094;
+        dist = dist*100;
+        dist = Math.round(dist);   
         return dist;
     }
 }

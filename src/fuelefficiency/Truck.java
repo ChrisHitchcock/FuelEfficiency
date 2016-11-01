@@ -12,15 +12,8 @@ package fuelefficiency;
  * @author chhit5249
  */
 public class Truck extends Vehicle {
+    //Variable declaration
     private double dist;
-    
-    /**
-     * Creates the Truck.
-     */
-    public Truck()
-    {
-        super();
-    }
     
     /**
      * Finds the distance the Truck can travel with the given # of litres.
@@ -29,7 +22,10 @@ public class Truck extends Vehicle {
      */
     public double getDistance(double l)
     {
+        //Calculate, round and return
         dist = l/0.141;
+        dist = dist*100;
+        dist = Math.round(dist);                                                                                                                                                                                                                                
         return dist;
     }
 }
