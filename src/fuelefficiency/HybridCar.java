@@ -30,6 +30,7 @@ public class HybridCar extends Vehicle {
         dist = l/0.038;
         dist = dist*100;
         dist = Math.round(dist);   
+        dist = dist/100;
         return dist;
     }
 }

@@ -29,7 +29,8 @@ public class Truck extends Vehicle {
         //Calculate, round and return
         dist = l/0.141;
         dist = dist*100;
-        dist = Math.round(dist);                                                                                                                                                                                                                                
+        dist = Math.round(dist);   
+        dist = dist/100;
         return dist;
     }
 }

@@ -30,6 +30,7 @@ public class Car extends Vehicle {
         dist = l/0.094;
         dist = dist*100;
         dist = Math.round(dist);   
+        dist = dist/100;
         return dist;
     }
 }
