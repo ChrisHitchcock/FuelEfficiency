@@ -2,7 +2,7 @@
  * Name:        Chris Hitchcock
  * Date:        November 1, 2016
  * Filename:    Vehicle.java
- * Version:     1.1
+ * Version:     1.2
  * Description: This is the abstract Vehicle superclass, which creates a default 
  *              vehicle and has an abstract method for displaying distance.
  */

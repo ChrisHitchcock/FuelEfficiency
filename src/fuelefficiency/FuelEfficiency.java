@@ -2,7 +2,7 @@
  * Name:        Chris Hitchcock
  * Date:        November 1, 2016
  * Filename:    FuelEfficiency.java
- * Version:     1.1
+ * Version:     1.2
  * Description: This program creates vehicles using the respective classes, and
  *              displays the distance they can drive with an inputted amount
  *              of fuel. It was made to test Polymorphism.

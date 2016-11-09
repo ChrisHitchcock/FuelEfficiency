@@ -2,7 +2,7 @@
  * Name:        Chris Hitchcock
  * Date:        November 1, 2016
  * Filename:    Motorcycle.java
- * Version:     1.1
+ * Version:     1.2
  * Description: This program creates a Motorcycle object; inheriting from the 
  *              Vehicle class it has a getDistance method with a calculation 
  *              specific to Motorcycles.
